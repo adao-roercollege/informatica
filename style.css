@@ -1,0 +1,35 @@
+@import "color-schemes/catppuccin-mocha.css";
+@import url(https://fonts.bunny.net/css?family=lexend);
+
+* {
+  font-family: 'Lexend', sans-serif;
+}
+
+body {
+  background-color: var(--base);
+}
+
+table, th, td {
+  border:1px solid var(--text);
+}
+
+h1, h2, h3, h4, h5, h6,
+p,
+li, dd,
+th, td,
+label {
+  color: var(--text);
+}
+
+input {
+  background-color: var(--surface0);
+  color: var(--text);
+}
+
+hr {
+  color: var(--text);
+}
+
+a {
+  color: var(--blue);
+}
