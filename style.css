@@ -7,10 +7,11 @@
 
 body {
   background-color: var(--base);
+  padding: 32px;
 }
 
 table, th, td {
-  border:1px solid var(--text);
+  border:1px solid var(--surface0);
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -32,4 +33,14 @@ hr {
 
 a {
   color: var(--blue);
+}
+
+#spamton {
+  width: 25px;
+  height: 25px;
+}
+
+#cat {
+  width: 200px;
+  height: 200px;
 }
