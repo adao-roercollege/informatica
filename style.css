@@ -47,12 +47,12 @@ a {
   color: var(--blue);
 }
 
-#spamton {
-  width: 25px;
-  height: 25px;
-}
-
-#cat {
+.cat {
   width: 200px;
   height: 200px;
+}
+
+.spamton {
+  width: 25px;
+  height: 25px;
 }
