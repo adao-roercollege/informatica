@@ -2,26 +2,35 @@
 @import url(https://fonts.bunny.net/css?family=lexend);
 
 * {
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 body {
   background-color: var(--base);
-  padding: 32px;
+  padding: 2rem;
 }
 
-table, th, td {
-  border: 1px solid var(--surface0);
+table,
+th,
+td {
+  border: 0.0625rem solid var(--surface0);
 }
 
 table {
   background-color: var(--mantle);
 }
 
-h1, h2, h3, h4, h5, h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p,
-li, dd,
-th, td,
+li,
+dd,
+th,
+td,
 label {
   color: var(--text);
 }
@@ -29,18 +38,14 @@ label {
 input {
   background-color: var(--mantle);
   color: var(--text);
-  border: 1px solid var(--surface0);
-  border-radius: 5px;
-  margin-top: 5px;
-}
-
-input[type="radio"],
-input[type="checkbox"] {
+  border: 0.0625rem solid var(--surface0);
+  border-radius: 0.3125rem;
+  margin-top: 0.3125rem;
   accent-color: var(--pink);
 }
 
 hr {
-  border: 1px solid var(--overlay2);
+  border: 0.0625rem solid var(--overlay2);
 }
 
 a {
@@ -48,11 +53,11 @@ a {
 }
 
 .cat {
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 12.5rem;
 }
 
 .spamton {
-  width: 25px;
-  height: 25px;
+  width: 1.5625rem;
+  height: 1.5625rem;
 }

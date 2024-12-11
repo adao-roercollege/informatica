@@ -1,150 +1,184 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-
   <head>
     <title>Title.</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <h1>Hello!</h1>
+    <div id="sidebar">
+      <ul>
+        <li class="menu-item">Welcome.</li>
+        <li class="menu-item">Cat.</li>
+        <li class="menu-item">Headers.</li>
+        <li class="menu-item">Drink lists.</li>
+        <li class="menu-item">Table.</li>
+        <li class="menu-item">Give me.</li>
+        <li class="menu-item">Vroom vroom.</li>
+      </ul>
+    </div>
 
-    <h2>What are you doing here?</h2>
-    <p>weird person.</p>
+    <div id="welcome">
+      <h1>Hello!</h1>
 
-    <h2 title="Stop hovering over me.">why?</h2>
-    <p>go away.</p>
-    <p>be useful.</p>
+      <h2>What are you doing here?</h2>
+      <p>weird person.</p>
 
-    <h3>Have a link to google.</h3>
-    <a href="https://www.google.com" target="_self"> google</a>
+      <h2 title="Stop hovering over me.">why?</h2>
+      <p>go away.</p>
+      <p>be useful.</p>
 
-    <br><br>
-    <hr>
+      <h3>Have a link to google.</h3>
+      <a href="https://www.google.com" target="_self"> google</a>
+    </div>
 
-    <h2>Maybe a picture of a cat?</h2>
-    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLqKeYdrnbSx6jM8BsObAZ5zCjUdMSblE2Tw&s" target="_self">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLqKeYdrnbSx6jM8BsObAZ5zCjUdMSblE2Tw&s" alt="Cat." class="cat">
-    </a>
+    <div id="cat">
+      <h2>Maybe a picture of a cat?</h2>
+      <a
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLqKeYdrnbSx6jM8BsObAZ5zCjUdMSblE2Tw&s"
+        target="_self"
+      >
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLqKeYdrnbSx6jM8BsObAZ5zCjUdMSblE2Tw&s"
+          alt="Cat."
+          class="cat"
+        />
+      </a>
+    </div>
 
-    <br><br>
-    <hr>
+    <div id="headers">
+      <h2 title="aaaaa">a</h2>
+      <h3 title="aaaa">aa</h3>
+      <h4 title="aaa">aaa</h4>
+      <h5 title="aa">aaaa</h5>
+      <h6 title="a">aaaaa</h6>
+    </div>
 
-    <h2 title="aaaaa">a</h2>
-    <h3 title="aaaa">aa</h3>
-    <h4 title="aaa">aaa</h4>
-    <h5 title="aa">aaaa</h5>
-    <h6 title="a">aaaaa</h6>
+    <div id="lists">
+      <div id="unordered">
+        <h4>An unordered list of drinks.</h4>
+        <ul>
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ul>
+      </div>
 
-    <hr>
+      <div id="ordered">
+        <h4>An ordered list of drinks.</h4>
+        <ol>
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ol>
+      </div>
 
-    <h4>An unordered list of drinks.</h4>
-    <ul>
-      <li>Coffee</li>
-      <li>Tea</li>
-      <li>Milk</li>
-    </ul>
-
-    <h4>An unordered list of drinks.</h4>
-    <ol>
-      <li>Coffee</li>
-      <li>Tea</li>
-      <li>Milk</li>
-    </ol>
-
-    <h4>A list of drinks with description.</h4>
-      <dl>
+      <div id="with-description">
+        <h4>A list of drinks with description.</h4>
+        <dl>
           <li>Coffee</li>
           <dd>- black hot drink.</dd>
           <li>Tea</li>
           <dd>- British.</dd>
           <li>Milk</li>
           <dd>- white cold drink.</dd>
-      </dl>
+        </dl>
+      </div>
+    </div>
 
+    <div id="table">
+      <h3>Table.</h3>
+      <table>
+        <tr>
+          <th>Lorem</th>
+          <th>Ipsum</th>
+          <th>Dolor</th>
+          <th>Sit</th>
+        </tr>
+        <tr>
+          <td>Consectetur</td>
+          <td>Adipiscing</td>
+          <td>Elit</td>
+          <td>Sed</td>
+        </tr>
+        <tr>
+          <td>Eiusmod</td>
+          <td>Tempor</td>
+          <td>Incididunt</td>
+          <td>Labore</td>
+        </tr>
+        <tr>
+          <td>Dolore</td>
+          <td>Magna</td>
+          <td>Aliqua</td>
+          <td>Ut</td>
+        </tr>
+      </table>
+    </div>
 
-    <hr>
-    
-    <h3>Table.</h3>
+    <div id="give-me">
+      <h3>Give me.</h3>
+      <form>
+        <label for="fname">Credit card number</label><br />
+        <input type="text" id="fname" name="fname" value="Enter here" /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
 
-    <table>
-      <tr>
-        <th>Lorem</th>
-        <th>Ipsum</th>
-        <th>Dolor</th>
-        <th>Sit</th>
-      </tr>
-      <tr>
-        <td>Consectetur</td>
-        <td>Adipiscing</td>
-        <td>Elit</td>
-        <td>Sed</td>
-      </tr>
-      <tr>
-        <td>Eiusmod</td>
-        <td>Tempor</td>
-        <td>Incididunt</td>
-        <td>Labore</td>
-      </tr>
-      <tr>
-        <td>Dolore</td>
-        <td>Magna</td>
-        <td>Aliqua</td>
-        <td>Ut</td>
-      </tr>
-    </table>
+    <div id="vroom-vroom">
+      <h3>Vroom vroom.</h3>
+      <form>
+        <input type="radio" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1"> Bike</label><br />
+        <input type="radio" id="vehicle2" name="vehicle2" value="Car" />
+        <label for="vehicle2"> Car</label><br />
+        <input type="radio" id="vehicle3" name="vehicle3" value="Boat" />
+        <label for="vehicle3"> Boat</label>
+      </form>
+    </div>
 
-    <br>
-    <hr>
-
-    <h3>Give me.</h3>
-
-    <form>
-      <label for="fname">Credit card number</label><br>
-      <input type="text" id="fname" name="fname" value="Enter here"><br>
-      <input type="submit" value="Submit">
-    </form>
-
-    <h3>What do you hate most?</h3>
-
-    <form>
-      <input type="radio" id="html" name="fav_language" value="HTML">
-      <label for="html">HTML</label><br>
-      <input type="radio" id="css" name="fav_language" value="CSS">
-      <label for="css">CSS</label><br>
-      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-      <label for="javascript">JavaScript</label>
-    </form>
-
-    <h3>Vroom vroom.</h3>
-
-    <form>
-      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-      <label for="vehicle1"> Bike</label><br>
-      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-      <label for="vehicle2"> Car</label><br>
-      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-      <label for="vehicle3"> Boat</label>
-    </form>
-
-    <h3></h3>
-
-    <hr>
-
-    <h6>Spamton.</h6>
-    <img src="https://i.redd.it/z6971venlho91.gif" alt="Spamton 1." class="spamton">
-    <img src="https://i.redd.it/z6971venlho91.gif" alt="Spamton 2." class="spamton">
-    <img src="https://i.redd.it/z6971venlho91.gif" alt="Spamton 3." class="spamton">
-    <img src="https://i.redd.it/z6971venlho91.gif" alt="Spamton 4." class="spamton">
-    <img src="https://i.redd.it/z6971venlho91.gif" alt="Spamton 5." class="spamton">
-    <img src="https://i.redd.it/z6971venlho91.gif" alt="Spamton 6." class="spamton">
-    <img src="https://i.redd.it/z6971venlho91.gif" alt="Spamton 7." class="spamton">
-    <img src="https://i.redd.it/z6971venlho91.gif" alt="Spamton 8." class="spamton">
-
-    <br><br>
-    <hr>
-
+    <div id="spamton">
+      <img
+        src="https://i.redd.it/z6971venlho91.gif"
+        alt="Spamton 1."
+        class="spamton"
+      />
+      <img
+        src="https://i.redd.it/z6971venlho91.gif"
+        alt="Spamton 2."
+        class="spamton"
+      />
+      <img
+        src="https://i.redd.it/z6971venlho91.gif"
+        alt="Spamton 3."
+        class="spamton"
+      />
+      <img
+        src="https://i.redd.it/z6971venlho91.gif"
+        alt="Spamton 4."
+        class="spamton"
+      />
+      <img
+        src="https://i.redd.it/z6971venlho91.gif"
+        alt="Spamton 5."
+        class="spamton"
+      />
+      <img
+        src="https://i.redd.it/z6971venlho91.gif"
+        alt="Spamton 6."
+        class="spamton"
+      />
+      <img
+        src="https://i.redd.it/z6971venlho91.gif"
+        alt="Spamton 7."
+        class="spamton"
+      />
+      <img
+        src="https://i.redd.it/z6971venlho91.gif"
+        alt="Spamton 8."
+        class="spamton"
+      />
+    </div>
   </body>
-
 </html>
