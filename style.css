@@ -8,7 +8,6 @@ html {
 
 body {
 	background-color: var(--base);
-	padding: 0;
 	line-height: 1.6;
 }
 
@@ -44,7 +43,7 @@ label {
 
 header {
 	background-color: var(--crust);
-	padding: 1rem 2rem;
+	padding: 0.1rem 2rem;
 	position: fixed;
 	width: calc(100% - 4rem);
 	top: 0;
@@ -56,7 +55,7 @@ header {
 
 nav ul {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	list-style: none;
 	gap: 2rem;
 }
@@ -107,6 +106,7 @@ section {
 	border-radius: 0.5rem;
 	box-shadow: 0 0 2rem var(--mantle);
 	transition: transform 1s ease, box-shadow 1.5s ease;
+	padding: 1rem;
 }
 
 .about:hover {
@@ -126,7 +126,7 @@ section {
 
 .project-card {
 	background-color: var(--mantle);
-	padding: 2rem;
+	padding: 1rem;
 	border-radius: 0.5rem;
 	border: 0.0625rem solid var(--surface0);
 	box-shadow: 0 0 2rem var(--mantle);
@@ -161,6 +161,7 @@ section {
 	border-radius: 0.5rem;
 	box-shadow: 0 0 2rem var(--mantle);
 	transition: transform 1s ease, box-shadow 1.5s ease;
+	padding: 0.5rem;
 }
 
 .contact:hover {

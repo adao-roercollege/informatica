@@ -28,31 +28,31 @@
       </nav>
     </header>
     <main>
-      <section id="home" class="name">
+      <section class="name">
         <h1>Adao</h1>
         <p id="name">
           <script>
-            document.getElementById("name").textContent = generateRandomText();
+            document.getElementById("name").textContent = generateRandomText(5);
           </script>
         </p>
       </section>
 
-      <section id="about" class="about">
+      <section class="about">
         <h2>About Me</h2>
         <p id="description">
           <script>
             document.getElementById("description").textContent =
-              generateRandomText();
+              generateRandomText(100);
           </script>
         </p>
       </section>
 
-      <section id="projects" class="projects">
+      <section class="projects">
         <h2>My Projects</h2>
         <div class="project-grid"></div>
       </section>
 
-      <section id="contact" class="contact">
+      <section class="contact">
         <h2>Contact Me</h2>
         <p>Email: soml106925@soml.nl</p>
         <p>
