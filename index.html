@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio - Adao</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
@@ -19,6 +18,9 @@
             <a href="#about"><i data-lucide="user"></i> About</a>
           </li>
           <li>
+            <a href="#skills"><i data-lucide="award"></i> Skills</a>
+          </li>
+          <li>
             <a href="#projects"><i data-lucide="folder"></i> Projects</a>
           </li>
           <li>
@@ -32,7 +34,7 @@
         <h1>Adao</h1>
         <p id="name">
           <script>
-            document.getElementById("name").textContent = generateRandomText(5);
+            document.getElementById("name").textContent = generate_random_text(5);
           </script>
         </p>
       </section>
@@ -42,9 +44,32 @@
         <p id="description">
           <script>
             document.getElementById("description").textContent =
-              generateRandomText(100);
+              generate_random_text(100);
           </script>
         </p>
+      </section>
+
+      <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i data-lucide="code"></i>
+            <h3>Backend</h3>
+            <ul>
+              <li>Rust</li>
+              <li>Arduino (C++)</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <i data-lucide="palette"></i>
+            <h3>Frontend</h3>
+            <ul>
+              <li>JavaScript</li>
+              <li>html</li>
+              <li>css</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section class="projects">
